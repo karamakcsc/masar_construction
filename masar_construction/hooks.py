@@ -186,3 +186,13 @@ user_data_fields = [
 # Recommended only for DocTypes which have limited documents with untranslated names
 # For example: Role, Gender, etc.
 # translated_search_doctypes = []
+fixtures = [
+	{"dt": "Custom Field", "filters": [
+		[
+			"name", "in", [
+		"Task-items",
+		"Task-section_break_15"
+			]
+		]
+	]}
+]
